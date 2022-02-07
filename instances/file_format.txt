@@ -1,0 +1,14 @@
+Instances for "A Novel Reformulation for the Single-Sink Fixed-Charge Transportation Problem", by R. Legault, J-F. Côté and B. Gendron
+
+FILES:
+Group 1 (Uncorrelated)                      example: g1_n5000_4          -> group 1, n=5000, instance 4
+Group 2 (Correlated)                        example: g2_n1000_beta10_5   -> group 2, n=1000, beta=10, instance 5
+Group 3 (Uncorrelated with fixed demand)    example: g3_n500_Br10_Fr60_5 -> group 3, n=500 , b-ratio=10, f-ratio=0.6, instance 5
+Group 4 (Correlated with small capacities)  example: g4_n1000_0          -> group 4, n=1000, instance 0
+
+FORMAT:
+First line (number of nodes): n
+Second line (demand)        : D 
+Third line (capacities)     : b_1 b_2 ... b_n
+Fourth line (unit costs)    : c_1 c_2 ... c_n
+Fifth line (fixed costs)    : f_1 f_2 ... f_n

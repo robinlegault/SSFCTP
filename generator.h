@@ -1,0 +1,13 @@
+struct Prob* generate_prob(int D, int n, int lb, int ub, double lc, double uc, int lf, int uf);
+struct Node * generator_simple(int n, int lb, int ub, double lc, double uc, int lf, int uf, int seed);
+struct Node* generator_klose1(int* D, int* lb, int* ub, double* lc, double* uc, int* lf, int* uf, int n, double Br, double Fr, int seed);
+struct Node* generator_klose2(int* D, int* lb, int* ub, double* lc, double* uc, int* lf, int* uf, int n, int seed);
+struct Node* generator_correlated(int* D, int* lb, int* ub, double* lc, double* uc, int* lf, int* uf, int n, int seed);
+struct Node* generator_Pisinger_strongly_correlated(int* D, int lb, int ub, double* lc, double* uc, int* lf, int* uf, int n, int seed);
+struct Node* generator_Pisinger_weakly_correlated(int* D, int lb, int ub, double* lc, double* uc, int* lf, int* uf, int n, int seed);
+struct Node* generator_Pisinger_weakly_correlated_different_demand(int* D, int lb, int ub, double* lc, double* uc, int* lf, int* uf, int n, int seed, int instanceIdx, int N, double beta, double theta, double omega);
+struct Node* generator_file(int j, int i, int *D, int* lb, int* ub, double* lc, double* uc, int* lf, int* uf, int* n);
+struct Node* generate_nodes(Node* nodes, int *D, int *lb, int *ub, double *lc, double *uc, int *lf, int *uf, int *n, double *Br, double *Fr, int *seed, int *i, int *j, int *N, double *beta, double *theta, double *omega, enum GenType gen);
+struct Node* generator_simple_different_demand(int* D, int n, int lb, int ub, double lc, double uc, int lf, int uf, int instanceIdx, int N, int seed);
+void sort_nodes(int n, Node *nodes);
+void generator_FCTP(int m, int n, int la, int ua, int lb, int ub, int lc, int uc, int lf, int uf, int seed);
