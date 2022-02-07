@@ -5,7 +5,7 @@
 ****************************************************************************************************
 
 
-___________________________________ g2_n500_Br5_Fr30_i ,i=1,...10 _____________________________________
+__________________________________ g3_n500_Br5_Fr30_i ,i=0,...9 _____________________________________
 Optimal value = 1059072.017060
 Total CPU time = 0.715000 ms
 Optimal value = 1078297.907193
@@ -68,7 +68,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_Br5_Fr60_i ,i=1,...10 _____________________________________
+__________________________________ g3_n500_Br5_Fr60_i ,i=0,...9 _____________________________________
 Optimal value = 1278541.096500
 Total CPU time = 0.316000 ms
 Optimal value = 1320779.950743
@@ -130,7 +130,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_Br5_Fr100_i ,i=1,...10 ____________________________________
+__________________________________ g3_n500_Br5_Fr100_i ,i=0,...9 ____________________________________
 Optimal value = 1557657.486953
 Total CPU time = 0.288000 ms
 Optimal value = 1619661.252022
@@ -191,7 +191,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 =====================================================================================================
 
 
-___________________________________ g2_n500_Br10_Fr30_i ,i=1,...10 ____________________________________
+__________________________________ g3_n500_Br10_Fr30_i ,i=0,...9 ____________________________________
 Optimal value = 1085640.258492
 Total CPU time = 0.320000 ms
 Optimal value = 1103310.183966
@@ -252,7 +252,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 =====================================================================================================
 
 
-___________________________________ g2_n500_Br10_Fr60_i ,i=1,...10 ____________________________________
+__________________________________ g3_n500_Br10_Fr60_i ,i=0,...9 ____________________________________
 Optimal value = 1317596.878719
 Total CPU time = 0.268000 ms
 Optimal value = 1350926.075777
@@ -314,7 +314,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_Br10_Fr100_i ,i=1,...10 ___________________________________
+__________________________________ g3_n500_Br10_Fr100_i ,i=0,...9 ___________________________________
 Optimal value = 1616812.476699
 Total CPU time = 0.252000 ms
 Optimal value = 1661455.422834
@@ -376,7 +376,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_Br25_Fr30_i ,i=1,...10 ____________________________________
+__________________________________ g3_n500_Br25_Fr30_i ,i=0,...9 ____________________________________
 Optimal value = 1133742.930784
 Total CPU time = 0.275000 ms
 Optimal value = 1148678.022065
@@ -438,7 +438,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_Br25_Fr60_i ,i=1,...10 ____________________________________
+__________________________________ g3_n500_Br25_Fr60_i ,i=0,...9 ____________________________________
 Optimal value = 1387590.857173
 Total CPU time = 0.301000 ms
 Optimal value = 1408352.079012
@@ -500,7 +500,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_Br25_Fr100_i ,i=1,...10 ___________________________________
+__________________________________ g3_n500_Br25_Fr100_i ,i=0,...9 ___________________________________
 Optimal value = 1705289.822779
 Total CPU time = 0.294000 ms
 Optimal value = 1735567.327982
@@ -562,7 +562,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_Br50_Fr30_i ,i=1,...10 ____________________________________
+__________________________________ g3_n500_Br50_Fr30_i ,i=0,...9 ____________________________________
 Optimal value = 1193482.238899
 Total CPU time = 0.228000 ms
 Optimal value = 1204912.690512
@@ -624,7 +624,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_Br50_Fr60_i ,i=1,...10 ____________________________________
+__________________________________ g3_n500_Br50_Fr60_i ,i=0,...9 ____________________________________
 Optimal value = 1460765.173162
 Total CPU time = 0.194000 ms
 Optimal value = 1479262.950407
@@ -686,7 +686,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_Br50_Fr100_i ,i=1,...10 ___________________________________
+__________________________________ g3_n500_Br50_Fr100_i ,i=0,...9 ___________________________________
 Optimal value = 1802852.839198
 Total CPU time = 0.183000 ms
 Optimal value = 1829584.431074
@@ -748,7 +748,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br5_Fr30_i ,i=1,...10 ____________________________________
+__________________________________ g3_n1000_Br5_Fr30_i ,i=0,...9 ____________________________________
 Optimal value = 1056156.482070
 Total CPU time = 0.525000 ms
 Optimal value = 1068788.131382
@@ -810,7 +810,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br5_Fr60_i ,i=1,...10 ____________________________________
+__________________________________ g3_n1000_Br5_Fr60_i ,i=0,...9 ____________________________________
 Optimal value = 1274379.809259
 Total CPU time = 0.401000 ms
 Optimal value = 1304919.900327
@@ -872,7 +872,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br5_Fr100_i ,i=1,...10 ___________________________________
+__________________________________ g3_n1000_Br5_Fr100_i ,i=0,...9 ___________________________________
 Optimal value = 1553911.140568
 Total CPU time = 0.486000 ms
 Optimal value = 1600715.229225
@@ -934,7 +934,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br10_Fr30_i ,i=1,...10 ___________________________________
+__________________________________ g3_n1000_Br10_Fr30_i ,i=0,...9 ___________________________________
 Optimal value = 1084116.125706
 Total CPU time = 0.431000 ms
 Optimal value = 1094048.061403
@@ -996,7 +996,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br10_Fr60_i ,i=1,...10 ___________________________________
+__________________________________ g3_n1000_Br10_Fr60_i ,i=0,...9 ___________________________________
 Optimal value = 1315186.301462
 Total CPU time = 0.459000 ms
 Optimal value = 1340531.359600
@@ -1058,7 +1058,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br10_Fr100_i ,i=1,...10 __________________________________
+__________________________________ g3_n1000_Br10_Fr100_i ,i=0,...9 __________________________________
 Optimal value = 1611610.584552
 Total CPU time = 0.484000 ms
 Optimal value = 1647175.160863
@@ -1120,7 +1120,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br25_Fr30_i ,i=1,...10 ___________________________________
+__________________________________ g3_n1000_Br25_Fr30_i ,i=0,...9 ___________________________________
 Optimal value = 1133544.110416
 Total CPU time = 0.400000 ms
 Optimal value = 1140774.034883
@@ -1182,7 +1182,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br25_Fr60_i ,i=1,...10 ___________________________________
+__________________________________ g3_n1000_Br25_Fr60_i ,i=0,...9 ___________________________________
 Optimal value = 1386039.004120
 Total CPU time = 0.389000 ms
 Optimal value = 1398088.309671
@@ -1244,7 +1244,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br25_Fr100_i ,i=1,...10 __________________________________
+__________________________________ g3_n1000_Br25_Fr100_i ,i=0,...9 __________________________________
 Optimal value = 1704402.927671
 Total CPU time = 0.181000 ms
 Optimal value = 1724190.531724
@@ -1306,7 +1306,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br50_Fr30_i ,i=1,...10 ___________________________________
+__________________________________ g3_n1000_Br50_Fr30_i ,i=0,...9 ___________________________________
 Optimal value = 1187655.894406
 Total CPU time = 0.188000 ms
 Optimal value = 1199078.730155
@@ -1368,7 +1368,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_Br50_Fr60_i ,i=1,...10 ___________________________________
+__________________________________ g3_n1000_Br50_Fr60_i ,i=0,...9 ___________________________________
 Optimal value = 1456066.230903
 Total CPU time = 0.138000 ms
 Optimal value = 1473479.832789
@@ -1429,7 +1429,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 =====================================================================================================
 
 
-___________________________________ g2_n1000_Br50_Fr100_i ,i=1,...10 __________________________________
+__________________________________ g3_n1000_Br50_Fr100_i ,i=0,...9 __________________________________
 Optimal value = 1799115.764885
 Total CPU time = 0.163000 ms
 Optimal value = 1823535.901730
@@ -1490,7 +1490,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 =====================================================================================================
 
 
-___________________________________ g2_n5000_Br5_Fr30_i ,i=1,...10 ____________________________________
+__________________________________ g3_n5000_Br5_Fr30_i ,i=0,...9 ____________________________________
 Optimal value = 1061685.007324
 Total CPU time = 2.099000 ms
 Optimal value = 1063960.777459
@@ -1552,7 +1552,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_Br5_Fr60_i ,i=1,...10 ____________________________________
+__________________________________ g3_n5000_Br5_Fr60_i ,i=0,...9 ____________________________________
 Optimal value = 1284637.513077
 Total CPU time = 0.634000 ms
 Optimal value = 1291094.946867
@@ -1614,7 +1614,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_Br5_Fr100_i ,i=1,...10 ___________________________________
+__________________________________ g3_n5000_Br5_Fr100_i ,i=0,...9 ___________________________________
 Optimal value = 1570822.384625
 Total CPU time = 0.614000 ms
 Optimal value = 1582397.306131
@@ -1676,7 +1676,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_Br10_Fr30_i ,i=1,...10 ___________________________________
+__________________________________ g3_n5000_Br10_Fr30_i ,i=0,...9 ___________________________________
 Optimal value = 1086725.445692
 Total CPU time = 1.850000 ms
 Optimal value = 1087429.835810
@@ -1738,7 +1738,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_Br10_Fr60_i ,i=1,...10 ___________________________________
+__________________________________ g3_n5000_Br10_Fr60_i ,i=0,...9 ___________________________________
 Optimal value = 1323285.523728
 Total CPU time = 0.587000 ms
 Optimal value = 1326642.008942
@@ -1800,7 +1800,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_Br10_Fr100_i ,i=1,...10 __________________________________
+__________________________________ g3_n5000_Br10_Fr100_i ,i=0,...9 __________________________________
 Optimal value = 1624447.937315
 Total CPU time = 0.453000 ms
 Optimal value = 1630005.281167
@@ -1862,7 +1862,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_Br25_Fr30_i ,i=1,...10 ___________________________________
+__________________________________ g3_n5000_Br25_Fr30_i ,i=0,...9 ___________________________________
 Optimal value = 1130091.417310
 Total CPU time = 1.595000 ms
 Optimal value = 1135536.145512
@@ -1924,7 +1924,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_Br25_Fr60_i ,i=1,...10 ___________________________________
+__________________________________ g3_n5000_Br25_Fr60_i ,i=0,...9 ___________________________________
 Optimal value = 1384022.504440
 Total CPU time = 0.469000 ms
 Optimal value = 1393251.443495
@@ -1985,7 +1985,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 =====================================================================================================
 
 
-___________________________________ g2_n5000_Br25_Fr100_i ,i=1,...10 __________________________________
+__________________________________ g3_n5000_Br25_Fr100_i ,i=0,...9 __________________________________
 Optimal value = 1704119.979614
 Total CPU time = 0.490000 ms
 Optimal value = 1719504.133946
@@ -2047,7 +2047,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_Br50_Fr30_i ,i=1,...10 ___________________________________
+__________________________________ g3_n5000_Br50_Fr30_i ,i=0,...9 ___________________________________
 Optimal value = 1192205.067507
 Total CPU time = 0.522000 ms
 Optimal value = 1186850.383496
@@ -2109,7 +2109,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_Br50_Fr60_i ,i=1,...10 ___________________________________
+__________________________________ g3_n5000_Br50_Fr60_i ,i=0,...9 ___________________________________
 Optimal value = 1464095.347087
 Total CPU time = 0.661000 ms
 Optimal value = 1453726.232612
@@ -2170,7 +2170,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 =====================================================================================================
 
 
-___________________________________ g2_n5000_Br50_Fr100_i ,i=1,...10 __________________________________
+__________________________________ g3_n5000_Br50_Fr100_i ,i=0,...9 __________________________________
 Optimal value = 1811404.630970
 Total CPU time = 0.491000 ms
 Optimal value = 1792790.958617
@@ -2230,7 +2230,7 @@ Mean number of items per knapsack problem in the exact phase (E) after the filte
 Mean number of knapsack problems solved during the complete algorithm                    : 1.000000
 =====================================================================================================
 
-___________________________________ g2_n10000_Br5_Fr30_i ,i=1,...10 ___________________________________
+__________________________________ g3_n10000_Br5_Fr30_i ,i=0,...9 ___________________________________
 Optimal value = 1060585.016602
 Total CPU time = 3.385000 ms
 Optimal value = 1061972.168004
@@ -2291,7 +2291,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 =====================================================================================================
 
 
-___________________________________ g2_n10000_Br5_Fr60_i ,i=1,...10 ___________________________________
+__________________________________ g3_n10000_Br5_Fr60_i ,i=0,...9 ___________________________________
 Optimal value = 1283328.002625
 Total CPU time = 0.854000 ms
 Optimal value = 1286923.800836
@@ -2351,7 +2351,7 @@ Mean number of items per knapsack problem in the exact phase (E) after the filte
 Mean number of knapsack problems solved during the complete algorithm                    : 1.300000
 =====================================================================================================
 
-___________________________________ g2_n10000_Br5_Fr100_i ,i=1,...10 __________________________________
+__________________________________ g3_n10000_Br5_Fr100_i ,i=0,...9 __________________________________
 Optimal value = 1569026.987609
 Total CPU time = 0.860000 ms
 Optimal value = 1576175.125767
@@ -2411,7 +2411,7 @@ Mean number of items per knapsack problem in the exact phase (E) after the filte
 Mean number of knapsack problems solved during the complete algorithm                    : 1.000000
 =====================================================================================================
 
-___________________________________ g2_n10000_Br10_Fr30_i ,i=1,...10 __________________________________
+__________________________________ g3_n10000_Br10_Fr30_i ,i=0,...9 __________________________________
 Optimal value = 1084115.442549
 Total CPU time = 3.338000 ms
 Optimal value = 1084790.007721
@@ -2472,7 +2472,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 =====================================================================================================
 
 
-___________________________________ g2_n10000_Br10_Fr60_i ,i=1,...10 __________________________________
+__________________________________ g3_n10000_Br10_Fr60_i ,i=0,...9 __________________________________
 Optimal value = 1318485.229469
 Total CPU time = 0.836000 ms
 Optimal value = 1321838.066927
@@ -2533,7 +2533,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 =====================================================================================================
 
 
-___________________________________ g2_n10000_Br10_Fr100_i ,i=1,...10 _________________________________
+__________________________________ g3_n10000_Br10_Fr100_i ,i=0,...9 _________________________________
 Optimal value = 1616441.769127
 Total CPU time = 0.970000 ms
 Optimal value = 1622500.064577
@@ -2594,7 +2594,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 =====================================================================================================
 
 
-___________________________________ g2_n10000_Br25_Fr30_i ,i=1,...10 __________________________________
+__________________________________ g3_n10000_Br25_Fr30_i ,i=0,...9 __________________________________
 Optimal value = 1126549.418531
 Total CPU time = 3.216000 ms
 Optimal value = 1127587.819697
@@ -2654,7 +2654,7 @@ Mean number of items per knapsack problem in the exact phase (E) after the filte
 Mean number of knapsack problems solved during the complete algorithm                    : 1.800000
 =====================================================================================================
 
-___________________________________ g2_n10000_Br25_Fr60_i ,i=1,...10 __________________________________
+__________________________________ g3_n10000_Br25_Fr60_i ,i=0,...9 __________________________________
 Optimal value = 1376810.151280
 Total CPU time = 0.839000 ms
 Optimal value = 1379177.666433
@@ -2714,7 +2714,7 @@ Mean number of items per knapsack problem in the exact phase (E) after the filte
 Mean number of knapsack problems solved during the complete algorithm                    : 1.000000
 =====================================================================================================
 
-___________________________________ g2_n10000_Br25_Fr100_i ,i=1,...10 _________________________________
+__________________________________ g3_n10000_Br25_Fr100_i ,i=0,...9 _________________________________
 Optimal value = 1692395.329508
 Total CPU time = 0.824000 ms
 Optimal value = 1697285.066713
@@ -2774,7 +2774,7 @@ Mean number of items per knapsack problem in the exact phase (E) after the filte
 Mean number of knapsack problems solved during the complete algorithm                    : 1.000000
 =====================================================================================================
 
-___________________________________ g2_n10000_Br50_Fr30_i ,i=1,...10 __________________________________
+__________________________________ g3_n10000_Br50_Fr30_i ,i=0,...9 __________________________________
 Optimal value = 1177422.529527
 Total CPU time = 0.905000 ms
 Optimal value = 1178507.554308
@@ -2834,7 +2834,7 @@ Mean number of items per knapsack problem in the exact phase (E) after the filte
 Mean number of knapsack problems solved during the complete algorithm                    : 1.000000
 =====================================================================================================
 
-___________________________________ g2_n10000_Br50_Fr60_i ,i=1,...10 __________________________________
+__________________________________ g3_n10000_Br50_Fr60_i ,i=0,...9 __________________________________
 Optimal value = 1436298.956359
 Total CPU time = 0.959000 ms
 Optimal value = 1438407.161840
@@ -2896,7 +2896,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n10000_Br50_Fr100_i ,i=1,...10 _________________________________
+__________________________________ g3_n10000_Br50_Fr100_i ,i=0,...9 _________________________________
 Optimal value = 1766894.416120
 Total CPU time = 0.970000 ms
 Optimal value = 1769052.095065

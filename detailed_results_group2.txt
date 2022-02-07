@@ -5,7 +5,7 @@
 ****************************************************************************************************    
 
 
-___________________________________ g2_n500_beta5_i ,i=1,...10 _____________________________________
+____________________________________ g2_n500_beta5_i ,i=0,...9 _____________________________________
 Optimal value = 251360.684682
 Total CPU time = 0.350000 ms
 Optimal value = 531215.384692
@@ -68,7 +68,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_beta5_i ,i=1,...10 _____________________________________
+____________________________________ g2_n1000_beta5_i ,i=0,...9 _____________________________________
 Optimal value = 506744.015595
 Total CPU time = 0.534000 ms
 Optimal value = 1060131.292642
@@ -131,7 +131,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_beta5_i ,i=1,...10 _____________________________________
+____________________________________ g2_n5000_beta5_i ,i=0,...9 _____________________________________
 Optimal value = 2543967.980139
 Total CPU time = 2.491000 ms
 Optimal value = 5265988.570666
@@ -193,7 +193,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n10000_beta5_i ,i=1,...10 _____________________________________
+____________________________________ g2_n10000_beta5_i ,i=0,...9 _____________________________________
 Optimal value = 5041523.378841
 Total CPU time = 4.876000 ms
 Optimal value = 10577937.784627
@@ -255,7 +255,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_beta10_i ,i=1,...10 _____________________________________
+____________________________________ g2_n500_beta10_i ,i=0,...9 _____________________________________
 Optimal value = 297097.244360
 Total CPU time = 0.258000 ms
 Optimal value = 600584.139407
@@ -318,7 +318,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_beta10_i ,i=1,...10 _____________________________________
+____________________________________ g2_n1000_beta10_i ,i=0,...9 _____________________________________
 Optimal value = 597156.296844
 Total CPU time = 0.457000 ms
 Optimal value = 1214213.982172
@@ -382,7 +382,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_beta10_i ,i=1,...10 _____________________________________
+____________________________________ g2_n5000_beta10_i ,i=0,...9 _____________________________________
 Optimal value = 2962732.442370
 Total CPU time = 2.495000 ms
 Optimal value = 6021227.712362
@@ -445,7 +445,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n10000_beta10_i ,i=1,...10 _____________________________________
+____________________________________ g2_n10000_beta10_i ,i=0,...9 _____________________________________
 Optimal value = 5933075.288376
 Total CPU time = 3.829000 ms
 Optimal value = 12120912.678256
@@ -508,7 +508,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_beta100_i ,i=1,...10 _____________________________________
+____________________________________ g2_n500_beta100_i ,i=0,...9 _____________________________________
 Optimal value = 337473.674744
 Total CPU time = 0.611000 ms
 Optimal value = 674684.984507
@@ -571,7 +571,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_beta100_i ,i=1,...10 _____________________________________
+____________________________________ g2_n1000_beta100_i ,i=0,...9 _____________________________________
 Optimal value = 667932.204657
 Total CPU time = 0.409000 ms
 Optimal value = 1358104.156194
@@ -635,7 +635,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_beta100_i ,i=1,...10 _____________________________________
+____________________________________ g2_n5000_beta100_i ,i=0,...9 _____________________________________
 Optimal value = 3368913.201361
 Total CPU time = 1.006000 ms
 Optimal value = 6708535.949614
@@ -698,7 +698,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n10000_beta100_i ,i=1,...10 _____________________________________
+___________________________________ _g2_n10000_beta100_i ,i=0,...9 _____________________________________
 Optimal value = 6722347.438856
 Total CPU time = 3.906000 ms
 Optimal value = 13505587.657704
@@ -761,7 +761,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n500_beta1000_i ,i=1,...10 _____________________________________
+____________________________________ g2_n500_beta1000_i ,i=0,...9 _____________________________________
 Optimal value = 338862.949868
 Total CPU time = 2.941000 ms
 Optimal value = 676526.446120
@@ -823,7 +823,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n1000_beta1000_i ,i=1,...10 _____________________________________
+___________________________________ _g2_n1000_beta1000_i ,i=0,...9 _____________________________________
 Optimal value = 683901.621357
 Total CPU time = 1.591000 ms
 Optimal value = 1359392.038881
@@ -886,7 +886,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n5000_beta1000_i ,i=1,...10 _____________________________________
+___________________________________ _g2_n5000_beta1000_i ,i=0,...9 _____________________________________
 Optimal value = 3390528.194983
 Total CPU time = 1.882000 ms
 Optimal value = 6836001.657155
@@ -949,7 +949,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n10000_beta1000_i ,i=1,...10 _____________________________________
+___________________________________ g_2_n10000_beta1000_i ,i=0,...9 _____________________________________
 Optimal value = 6829607.190283
 Total CPU time = 2.339000 ms
 Optimal value = 13641192.446974
@@ -1012,7 +1012,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n25000_beta5_i ,i=1,...10 _____________________________________
+____________________________________ g2_n25000_beta5_i ,i=0,...9 _____________________________________
 Optimal value = 12567292.888394
 Total CPU time = 12.321000 ms
 Optimal value = 26498900.859724
@@ -1075,7 +1075,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n25000_beta10_i ,i=1,...10 _____________________________________
+____________________________________ g2_n25000_beta10_i ,i=0,...9 _____________________________________
 Optimal value = 14815216.690207
 Total CPU time = 2.120000 ms
 Optimal value = 30341501.688380
@@ -1138,7 +1138,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n25000_beta100_i ,i=1,...10 _____________________________________
+___________________________________ _g2_n25000_beta100_i ,i=0,...9 _____________________________________
 Optimal value = 16862194.493881
 Total CPU time = 7.910000 ms
 Optimal value = 33693391.659108
@@ -1200,7 +1200,7 @@ Mean number of knapsack problems solved during the complete algorithm           
 
 
 
-___________________________________ g2_n25000_beta1000_i ,i=1,...10 _____________________________________
+___________________________________ g_2_n25000_beta1000_i ,i=0,...9 _____________________________________
 Optimal value = 17008080.602893
 Total CPU time = 2.308000 ms
 Optimal value = 34046530.144627
