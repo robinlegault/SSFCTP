@@ -15,9 +15,9 @@ The single-sink fixed-charge transportation problem is known to have many applic
 
 `Makefile` : simple Makefile that can be used to execute the main file given as an example
 
-`combo.c` : slightly modified version of the combo algorithm code presented in "Dynamic programming and tight bounds
+`combo.c` : slightly modified version of the combo algorithm presented in "Dynamic programming and tight bounds
 for the 0-1 knapsack problem". The original code is made available by the authors: http://hjemmesider.diku.dk/~pisinger/codes.html.
-The combo algorithm is used within the KTA to solve the knapsack subproblems.
+The combo algorithm is used within KTA to solve knapsack subproblems.
 
 `combo.h` : header file associated with `combo.c`
 
