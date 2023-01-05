@@ -1,6 +1,5 @@
 ****************************************************************************************************
 **** Detailed results obtained using KTA on Group 3 (Uncorrelated instances with fixed demand)  ****
-************************** These results are summarized in Tables 4 and 6  *************************
 ********************** For each set of parameters, 10 instances are executed ***********************
 ****************************************************************************************************
 

@@ -1,6 +1,5 @@
 ****************************************************************************************************
 *** Detailed results obtained using KTA on Group 4 (Correlated instances with small capacities)  ***
-****************************** These results are summarized in Table 5  ****************************
 ********************** For each set of parameters, 10 instances are executed ***********************
 ****************************************************************************************************
 
