@@ -1,6 +1,6 @@
 # The Knapsack Transformation Algorithm (KTA) for solving the single-sink fixed-charge transportation problem (SSFCTP)
 
-The KTA is described in "A Novel Reformulation for the Single-Sink Fixed-Charge Transportation Problem" by R.Legault, JF.Côté, B.Gendron.
+The KTA is described in "A Novel Reformulation for the Single-Sink Fixed-Charge Transportation Problem" by R.Legault, JF.Côté and B.Gendron.
 
 ### ARTICLE ABSTRACT
 
@@ -26,7 +26,7 @@ The combo algorithm is used within the KTA to solve the knapsack subproblems.
 `generator.h` : header file associated with `generator.c`
 
 `ssfctp.c` : principal file. Includes the functions `solveSSFCTP` and `solveSSFCTP_detailed` that can be used to solve instances
-of the SSFCTP using the KTA
+of the SSFCTP using KTA
 
 `util.c` : defines basic operations on data structures, random number generation method, etc.
 
