@@ -25,7 +25,7 @@ double lc, uc;
 int main(int arg, char * argv[])
 {
     // Problem file
-    char * instance_path = "./instances/g2_n1000_beta10_9";
+    char * instance_path = "./instances/g1_n25000_9";
 
     // Read instance file and initialize the problem
     nodes = read_file(instance_path, &n, &D, &lb, &ub, &lc, &uc, &lf, &uf);

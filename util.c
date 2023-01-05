@@ -315,23 +315,20 @@ void printGlobalRes(GlobalRes *gRes, int computeSol){
 	printf("Mean cpu time per instance : %f%s\n", (double)gRes->cpu_tot/1000/gRes->nRep, " msec");
 	printf("Sum of optimal values      : %f\n", gRes->sum_opt_val);
 	printf("\n_____________________________________________ CPU TIME ______________________________________________\n");
-	printf("Cpu time in phase  0 (Sorting phase)                            :  %f%s\n", (double)gRes->cpu_sort_0     /1000, " msec");
-	printf("Cpu time in phase  1 (Weak linear relaxation and greedy phase)  :  %f%s\n", (double)gRes->cpu_ZLP_ZG_1   /1000, " msec");
-	printf("Cpu time in phases 2 to 5 (Knapsack approximation phase)        :  %f%s\n", (double)gRes->cpu_P3_2_3_4_5 /1000, " msec");
-	printf("Cpu time in phase  6 (Dominance phase)                          :  %f%s\n", (double)gRes->cpu_dom_6      /1000, " msec");
-	printf("Cpu time in phase  7 (Strong linear relaxation phase)           :  %f%s\n", (double)gRes->cpu_LP_7       /1000, " msec");
-	printf("Cpu time in phase  9 (Filtering phase)                          :  %f%s\n", (double)gRes->cpu_filtering_9/1000, " msec");
-	printf("Cpu time in phase 10 (Exact resolution phase)                   :  %f%s\n", (double)gRes->cpu_exact_10   /1000, " msec");
-	printf("Total cpu time (Positive costs transformation + phases 0 to 10) :  %f%s\n", (double)gRes->cpu_tot        /1000, " msec");
+	printf("Cpu time in phase  H1 :  %f%s\n", (double)gRes->cpu_sort_0+(double)gRes->cpu_ZLP_ZG_1 /1000, " msec");
+	printf("Cpu time in phase  H2 :  %f%s\n", (double)gRes->cpu_P3_2_3_4_5 /1000, " msec");
+	printf("Cpu time in phase  H3 :  %f%s\n", (double)gRes->cpu_dom_6      /1000, " msec");
+	printf("Cpu time in phase  H4 :  %f%s\n", (double)gRes->cpu_LP_7       /1000, " msec");
+	printf("Cpu time in phase  F  :  %f%s\n", (double)gRes->cpu_filtering_9/1000, " msec");
+	printf("Cpu time in phase  E  :  %f%s\n", (double)gRes->cpu_exact_10   /1000, " msec");
+	printf("Total cpu time        :  %f%s\n", (double)gRes->cpu_tot        /1000, " msec");
 	printf("\n______________________________________ RESOLUTION STATISTICS ________________________________________\n");
-	printf("Instances solved exactly during phase  1       : %d\n", gRes->prOpt_ZLP_ZG_1);
-	printf("Instances solved exactly during phases 2 to 5  : %d\n", gRes->prOpt_P3_2_3_4_5);
-	//printf("Instances solved exactly during phase  6       : %d\n", gRes->prOpt_dom_6); //(cannot happen, since no new solution is identified during phase 6)
-	printf("Instances solved exactly during phase  7       : %d\n", gRes->prOpt_LP_7);
-	printf("Instances solved exactly during phase  10      : %d\n", gRes->prOpt_Exact_10);
-	printf("Total                                          : %d\n", gRes->prOpt_ZLP_ZG_1 + gRes->prOpt_P3_2_3_4_5 + gRes->prOpt_LP_7 + gRes->prOpt_Exact_10);
-	printf("Instances solved exactly (not necessarily proved optimal) after phase 1 : %d\n", gRes->isOpt_ZLP_ZG_1);
-	printf("Instances solved exactly (not necessarily proved optimal) after phase 3 : %d\n", gRes->isOpt_P3_2_3_4_5);
+	printf("Instances solved exactly during phase  H1  : %d\n", gRes->prOpt_ZLP_ZG_1);
+	printf("Instances solved exactly during phases H2  : %d\n", gRes->prOpt_P3_2_3_4_5);
+	//printf("Instances solved exactly during phase H3 : %d\n", gRes->prOpt_dom_6); //(cannot happen, since no new solution is identified during this phase)
+	printf("Instances solved exactly during phase  H4  : %d\n", gRes->prOpt_LP_7);
+	printf("Instances solved exactly during phase  E   : %d\n", gRes->prOpt_Exact_10);
+	printf("Total                                      : %d\n", gRes->prOpt_ZLP_ZG_1 + gRes->prOpt_P3_2_3_4_5 + gRes->prOpt_LP_7 + gRes->prOpt_Exact_10);
 	if(computeSol){
 		printf("Number of instances for which the optimal solution contains a partial node : %d \n",gRes->numberPartials);
 		if(gRes->numberPartials>=1){
@@ -342,23 +339,21 @@ void printGlobalRes(GlobalRes *gRes, int computeSol){
 		}
 	}
 	printf("\n_______________________________________ P SUBSET STATISTICS _________________________________________\n");
-	printf("Mean cardinality of set P after phase 5 : %f\n", (double)gRes->cardP_P3_2_3_4_5/gRes->nRep);
-	printf("Mean cardinality of set P after phase 6 : %f\n", (double)gRes->cardP_dom_6/gRes->nRep);
-	printf("Mean cardinality of set P after phase 7 : %f\n", (double)gRes->cardP_LP_7/gRes->nRep);
+	printf("Mean cardinality of set P after H2 : %f\n", (double)gRes->cardP_P3_2_3_4_5/gRes->nRep);
+	printf("Mean cardinality of set P after H3 : %f\n", (double)gRes->cardP_dom_6/gRes->nRep);
+	printf("Mean cardinality of set P after H4 : %f\n", (double)gRes->cardP_LP_7/gRes->nRep);
 	printf("\n_________________________________ KNAPSACK SUBPROBLEMS STATISTICS ___________________________________\n");
-	printf("Number of knapsack problems solved during the heuristic section (phases 2-3)                    : %d\n", gRes->kpHeuristicPhase);
-	printf("Number of knapsack problems solved during the exact section (phase 10)                          : %d\n", gRes->kpExactPhase);
-	printf("Mean number of knapsack problems solved during the heuristic section (phases 2-3))              : %f\n", (double)gRes->kpHeuristicPhase/gRes->nRep);
-	printf("Mean number of knapsack problems solved during the exact section (phase 10)                     : %f\n", (double)gRes->kpExactPhase/gRes->nRep);
+	printf("Mean number of knapsack problems solved during the heuristic phases : %f\n", (double)gRes->kpHeuristicPhase/gRes->nRep);
+	printf("Mean number of knapsack problems solved during the exact phase      : %f\n", (double)gRes->kpExactPhase/gRes->nRep);
 	if(gRes->prOpt_Exact_10 == 0){
-		printf("Mean number of knapsack problems solved during the exact section (phase 10) when it is executed : %f\n", 0);
-		printf("Mean number of items per knapsack problem in phase 10 after the filtering procedure             : %f\n", 0);
+		printf("Mean number of knapsack problems solved during the exact phase when it is executed : %f\n", 0);
+		printf("Mean number of items per knapsack problem after the filtering procedure            : %f\n", 0);
 	}
 	else{
-		printf("Mean number of knapsack problems solved during the exact section (phase 10) when it is executed : %f\n", (double)gRes->kpExactPhase/gRes->prOpt_Exact_10);
-		printf("Mean number of items per knapsack problem in phase 10 after the filtering procedure             : %f\n", (double)gRes->totNodesKpExactPhase/gRes->kpExactPhase);
+		printf("Mean number of knapsack problems solved during the exact phase when it is executed : %f\n", (double)gRes->kpExactPhase/gRes->prOpt_Exact_10);
+		printf("Mean number of items per knapsack problem after the filtering procedure            : %f\n", (double)gRes->totNodesKpExactPhase/gRes->kpExactPhase);
 	}
-	printf("Mean number of knapsack problems solved during the complete algorithm (phases 2-3 + phase 10)   : %f\n", (double)(gRes->kpHeuristicPhase+gRes->kpExactPhase)/gRes->nRep);
+	printf("Mean number of knapsack problems solved during the complete algorithm              : %f\n", (double)(gRes->kpHeuristicPhase+gRes->kpExactPhase)/gRes->nRep);
 	printf("=====================================================================================================\n");
 }
 
