@@ -1,0 +1,255 @@
+****************************************************************************************************
+*** Detailed results obtained using KTA on Group 4 (Correlated instances with small capacities)  ***
+****************************** These results are summarized in Table 5  ****************************
+********************** For each set of parameters, 10 instances are executed ***********************
+****************************************************************************************************
+
+
+______________________________________ g4_n500_i ,i=0,...9 _________________________________________
+Optimal value = 16633.000000
+Total CPU time = 0.165000 ms
+Optimal value = 17313.000000
+Total CPU time = 0.061000 ms
+Optimal value = 17005.000000
+Total CPU time = 0.066000 ms
+Optimal value = 16979.000000
+Total CPU time = 0.064000 ms
+Optimal value = 16096.000000
+Total CPU time = 0.065000 ms
+Optimal value = 16615.000000
+Total CPU time = 0.058000 ms
+Optimal value = 16594.000000
+Total CPU time = 0.064000 ms
+Optimal value = 17512.000000
+Total CPU time = 0.077000 ms
+Optimal value = 16692.000000
+Total CPU time = 0.066000 ms
+Optimal value = 17238.000000
+Total CPU time = 0.074000 ms
+
+========================================= GLOBAL STATISTICS =========================================
+Number of instances        : 10
+Mean cpu time per instance : 0.076000 msec
+Sum of optimal values      : 168677.000000
+
+__________________________________________ TOTAL CPU TIME ___________________________________________
+Cpu time in phase  H1 (Sorting + Elementary Bounds)        :  0.065000 + 0.015000 msec
+Cpu time in phases H2 (Knapsack Transformation)            :  0.666000 msec
+Cpu time in phase  H3 (Dominance Relation)                 :  0.000000 msec
+Cpu time in phase  H4 (Strong Linear Relaxation)           :  0.000000 msec
+Cpu time in phase  F  (Filtering)                          :  0.000000 msec
+Cpu time in phase  E  (Exact Resolution)                   :  0.000000 msec
+Total cpu time (Negative Costs Transformation + H + F + E) :  0.760000 msec
+
+______________________________________ RESOLUTION STATISTICS ________________________________________
+Instances solved exactly during phase  H1 : 0
+Instances solved exactly during phases H2 : 10
+Instances solved exactly during phase  H4 : 0
+Instances solved exactly during phase  E  : 0
+Total                                     : 10
+Instances solved exactly (not necessarily proved optimal) after phase H1 : 0
+Instances solved exactly (not necessarily proved optimal) after phase H2 : 10
+Number of instances for which the optimal solution contains a partial node : 0
+Mean number of excess items on the partial nodes                           : 0.000000
+
+_______________________________________ P SUBSET STATISTICS _________________________________________
+Mean cardinality of set P after phase H2 : 0.000000
+Mean cardinality of set P after phase H3 : 0.000000
+Mean cardinality of set P after phase H4 : 0.000000
+
+_________________________________ KNAPSACK SUBPROBLEMS STATISTICS ___________________________________
+Mean number of knapsack problems solved during the heuristic section (H)                 : 1.000000
+Mean number of knapsack problems solved during the exact section (E)                     : 0.000000
+Mean number of knapsack problems solved during the exact section (E) when it is executed : 0.000000
+Mean number of items per knapsack problem in the exact phase (E) after the filtering (F) : 0.000000
+Mean number of knapsack problems solved during the complete algorithm                    : 1.000000
+=====================================================================================================
+
+
+
+
+______________________________________ g4_n1000_i ,i=0,...9 _________________________________________
+Optimal value = 33558.000000
+Total CPU time = 0.150000 ms
+Optimal value = 34771.000000
+Total CPU time = 0.124000 ms
+Optimal value = 33904.000000
+Total CPU time = 0.107000 ms
+Optimal value = 33350.000000
+Total CPU time = 0.132000 ms
+Optimal value = 33615.000000
+Total CPU time = 0.133000 ms
+Optimal value = 34091.000000
+Total CPU time = 0.128000 ms
+Optimal value = 33467.000000
+Total CPU time = 0.096000 ms
+Optimal value = 33961.000000
+Total CPU time = 0.144000 ms
+Optimal value = 33171.000000
+Total CPU time = 0.115000 ms
+Optimal value = 33857.000000
+Total CPU time = 0.096000 ms
+
+========================================= GLOBAL STATISTICS =========================================
+Number of instances        : 10
+Mean cpu time per instance : 0.122500 msec
+Sum of optimal values      : 337745.000000
+
+__________________________________________ TOTAL CPU TIME ___________________________________________
+Cpu time in phase  H1 (Sorting + Elementary Bounds)        :  0.184000 + 0.035000 msec
+Cpu time in phases H2 (Knapsack Transformation)            :  0.993000 msec
+Cpu time in phase  H3 (Dominance Relation)                 :  0.000000 msec
+Cpu time in phase  H4 (Strong Linear Relaxation)           :  0.000000 msec
+Cpu time in phase  F  (Filtering)                          :  0.000000 msec
+Cpu time in phase  E  (Exact Resolution)                   :  0.000000 msec
+Total cpu time (Negative Costs Transformation + H + F + E) :  1.225000 msec
+
+______________________________________ RESOLUTION STATISTICS ________________________________________
+Instances solved exactly during phase  H1 : 0
+Instances solved exactly during phases H2 : 10
+Instances solved exactly during phase  H4 : 0
+Instances solved exactly during phase  E  : 0
+Total                                     : 10
+Instances solved exactly (not necessarily proved optimal) after phase H1 : 0
+Instances solved exactly (not necessarily proved optimal) after phase H2 : 10
+Number of instances for which the optimal solution contains a partial node : 0
+Mean number of excess items on the partial nodes                           : 0.000000
+
+_______________________________________ P SUBSET STATISTICS _________________________________________
+Mean cardinality of set P after phase H2 : 0.000000
+Mean cardinality of set P after phase H3 : 0.000000
+Mean cardinality of set P after phase H4 : 0.000000
+
+_________________________________ KNAPSACK SUBPROBLEMS STATISTICS ___________________________________
+Mean number of knapsack problems solved during the heuristic section (H)                 : 1.000000
+Mean number of knapsack problems solved during the exact section (E)                     : 0.000000
+Mean number of knapsack problems solved during the exact section (E) when it is executed : 0.000000
+Mean number of items per knapsack problem in the exact phase (E) after the filtering (F) : 0.000000
+Mean number of knapsack problems solved during the complete algorithm                    : 1.000000
+=====================================================================================================
+
+
+
+
+______________________________________ g4_n5000_i ,i=0,...9 _________________________________________
+Optimal value = 168875.000000
+Total CPU time = 0.463000 ms
+Optimal value = 170254.000000
+Total CPU time = 0.471000 ms
+Optimal value = 167599.000000
+Total CPU time = 0.474000 ms
+Optimal value = 169936.000000
+Total CPU time = 0.566000 ms
+Optimal value = 168576.000000
+Total CPU time = 0.548000 ms
+Optimal value = 167016.000000
+Total CPU time = 0.598000 ms
+Optimal value = 168544.000000
+Total CPU time = 0.331000 ms
+Optimal value = 167897.000000
+Total CPU time = 0.452000 ms
+Optimal value = 167331.000000
+Total CPU time = 0.495000 ms
+Optimal value = 169481.000000
+Total CPU time = 0.400000 ms
+
+========================================= GLOBAL STATISTICS =========================================
+Number of instances        : 10
+Mean cpu time per instance : 0.479800 msec
+Sum of optimal values      : 1685509.000000
+
+__________________________________________ TOTAL CPU TIME ___________________________________________
+Cpu time in phase  H1 (Sorting + Elementary Bounds)        :  0.808000 + 0.168000 msec
+Cpu time in phases H2 (Knapsack Transformation)            :  3.818000 msec
+Cpu time in phase  H3 (Dominance Relation)                 :  0.000000 msec
+Cpu time in phase  H4 (Strong Linear Relaxation)           :  0.000000 msec
+Cpu time in phase  F  (Filtering)                          :  0.000000 msec
+Cpu time in phase  E  (Exact Resolution)                   :  0.000000 msec
+Total cpu time (Negative Costs Transformation + H + F + E) :  4.798000 msec
+
+______________________________________ RESOLUTION STATISTICS ________________________________________
+Instances solved exactly during phase  H1 : 0
+Instances solved exactly during phases H2 : 10
+Instances solved exactly during phase  H4 : 0
+Instances solved exactly during phase  E  : 0
+Total                                     : 10
+Instances solved exactly (not necessarily proved optimal) after phase H1 : 0
+Instances solved exactly (not necessarily proved optimal) after phase H2 : 10
+Number of instances for which the optimal solution contains a partial node : 0
+Mean number of excess items on the partial nodes                           : 0.000000
+
+_______________________________________ P SUBSET STATISTICS _________________________________________
+Mean cardinality of set P after phase H2 : 0.000000
+Mean cardinality of set P after phase H3 : 0.000000
+Mean cardinality of set P after phase H4 : 0.000000
+
+_________________________________ KNAPSACK SUBPROBLEMS STATISTICS ___________________________________
+Mean number of knapsack problems solved during the heuristic section (H)                 : 1.000000
+Mean number of knapsack problems solved during the exact section (E)                     : 0.000000
+Mean number of knapsack problems solved during the exact section (E) when it is executed : 0.000000
+Mean number of items per knapsack problem in the exact phase (E) after the filtering (F) : 0.000000
+Mean number of knapsack problems solved during the complete algorithm                    : 1.000000
+=====================================================================================================
+
+
+
+
+______________________________________ g4_n10000_i ,i=0,...9 ________________________________________
+Optimal value = 339461.000000
+Total CPU time = 1.008000 ms
+Optimal value = 340082.000000
+Total CPU time = 0.694000 ms
+Optimal value = 336724.000000
+Total CPU time = 0.889000 ms
+Optimal value = 338215.000000
+Total CPU time = 1.271000 ms
+Optimal value = 338714.000000
+Total CPU time = 0.914000 ms
+Optimal value = 336188.000000
+Total CPU time = 0.836000 ms
+Optimal value = 338314.000000
+Total CPU time = 0.659000 ms
+Optimal value = 337724.000000
+Total CPU time = 0.743000 ms
+Optimal value = 336861.000000
+Total CPU time = 1.142000 ms
+Optimal value = 338930.000000
+Total CPU time = 0.668000 ms
+
+========================================= GLOBAL STATISTICS =========================================
+Number of instances        : 10
+Mean cpu time per instance : 0.882400 msec
+Sum of optimal values      : 3381213.000000
+
+__________________________________________ TOTAL CPU TIME ___________________________________________
+Cpu time in phase  H1 (Sorting + Elementary Bounds)        :  1.477000 + 0.336000 msec
+Cpu time in phases H2 (Knapsack Transformation)            :  7.001000 msec
+Cpu time in phase  H3 (Dominance Relation)                 :  0.000000 msec
+Cpu time in phase  H4 (Strong Linear Relaxation)           :  0.000000 msec
+Cpu time in phase  F  (Filtering)                          :  0.000000 msec
+Cpu time in phase  E  (Exact Resolution)                   :  0.000000 msec
+Total cpu time (Negative Costs Transformation + H + F + E) :  8.824000 msec
+
+______________________________________ RESOLUTION STATISTICS ________________________________________
+Instances solved exactly during phase  H1 : 0
+Instances solved exactly during phases H2 : 10
+Instances solved exactly during phase  H4 : 0
+Instances solved exactly during phase  E  : 0
+Total                                     : 10
+Instances solved exactly (not necessarily proved optimal) after phase H1 : 0
+Instances solved exactly (not necessarily proved optimal) after phase H2 : 10
+Number of instances for which the optimal solution contains a partial node : 0
+Mean number of excess items on the partial nodes                           : 0.000000
+
+_______________________________________ P SUBSET STATISTICS _________________________________________
+Mean cardinality of set P after phase H2 : 0.000000
+Mean cardinality of set P after phase H3 : 0.000000
+Mean cardinality of set P after phase H4 : 0.000000
+
+_________________________________ KNAPSACK SUBPROBLEMS STATISTICS ___________________________________
+Mean number of knapsack problems solved during the heuristic section (H)                 : 1.000000
+Mean number of knapsack problems solved during the exact section (E)                     : 0.000000
+Mean number of knapsack problems solved during the exact section (E) when it is executed : 0.000000
+Mean number of items per knapsack problem in the exact phase (E) after the filtering (F) : 0.000000
+Mean number of knapsack problems solved during the complete algorithm                    : 1.000000
+=====================================================================================================
