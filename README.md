@@ -33,3 +33,5 @@ of the SSFCTP using KTA
 `util.h` : header file associated with `util.c`. Defines the custom data structures that are used in the rest of the code
 
 `instances` : folder containing the instances used for the experiments of Section 7.2
+
+`results` : folder containing the detailed results of the experiments presented in Section 7.2
