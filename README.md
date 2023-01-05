@@ -4,16 +4,14 @@ The KTA is described in "A Novel Reformulation for the Single-Sink Fixed-Charge 
 
 ### ARTICLE ABSTRACT
 
-The single-sink fixed-charge transportation problem is known to have many applications in the area of Manufacturing and Transportation as well to be an important subproblem of the fixed-charge transportation problem. However, even the best solutions of the literature do not succeed in fully exploiting the structure of this problem, to the point of being surpassed by modern general-purpose mixed-integer programming solvers for large instances.
-
-We introduce a novel reformulation of the problem and study its theoretical properties, which lead to a range of new upper and lower bounds as well as specific dominance relations, linear relaxations and filtering procedures. The resulting algorithm includes a heuristic phase and an exact phase, the main step of which is to solve a very small number of knapsack subproblems.
-
-Computational experiments are presented for existing and new types of data instances. These tests indicate that the new algorithm systematically reduces the resolution time of the state-of-the-art exact methods by several orders of magnitude. 
+The single-sink fixed-charge transportation problem is known to have many applications in the area of manufacturing and transportation as well as being an important subproblem of the fixed-charge transportation problem. However, even the best algorithms from the literature do not fully leverage the structure of this problem, to the point of being surpassed by modern general-purpose mixed-integer programming solvers for large instances. We introduce a novel reformulation of the problem and study its theoretical properties. This reformulation leads to a range of new upper and lower bounds, dominance relations, linear relaxations, and filtering procedures. The resulting algorithm includes a heuristic phase and an exact phase, the main step of which is to solve a very small number of knapsack subproblems. Computational experiments are presented for existing and new types of instances. These tests indicate that the new algorithm systematically reduces the resolution time of the state-of-the-art exact methods by several orders of magnitude.
 
 
 ### DIRECTORY STRUCTURE
 
-`main.c` : example programs showing how to generate instances of the SSFCTP and how to solve them using the KTA 
+`main.c` : simple example showing how to solve an instance of the SSFCTP using KTA
+
+`main_g2.c` : example showing how to solve multiple instances of the SSFCTP using KTA to collect statistics (instances of Group 2)
 
 `Makefile` : simple Makefile that can be used to execute the main file given as an example
 
@@ -33,3 +31,5 @@ of the SSFCTP using the KTA
 `util.c` : defines basic operations on data structures, random number generation method, etc.
 
 `util.h` : header file associated with `util.c`. Defines the custom data structures that are used in the rest of the code
+
+`instances` : folder containing the instances used for the experiments of Section 7.2
