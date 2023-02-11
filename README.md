@@ -1,6 +1,6 @@
 # The Knapsack Transformation Algorithm (KTA) for solving the single-sink fixed-charge transportation problem (SSFCTP)
 
-The KTA is described in "A Novel Reformulation for the Single-Sink Fixed-Charge Transportation Problem" by R.Legault, JF.Côté and B.Gendron. Preprint available: https://www.cirrelt.ca/documentstravail/cirrelt-2022-05.pdf 
+The KTA is described in Legault, R., Côté, JF. & Gendron, B. A novel reformulation for the single-sink fixed-charge transportation problem. Math. Program. (2023). https://doi.org/10.1007/s10107-023-01930-y
 
 ### ARTICLE ABSTRACT
 
